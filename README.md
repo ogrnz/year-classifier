@@ -25,5 +25,5 @@ Done in 27.016995668411255 s
 ````
 
 ### Notes
-- It works on unix systems as well a MacOS
+- It works on unix systems as well on MacOS
 - It is *not* recursive yet
