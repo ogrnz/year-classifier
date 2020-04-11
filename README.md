@@ -7,7 +7,7 @@ the script looks for a simple `20[0-9]{2}` regex pattern (adapt it if you have o
 ### How to use:
 After downloading the script and setting up the environment, 
 just call the python script with the source directory as the first and only argument : `python year_classifier.py "G:/path/to/pictures"`
-```
+```bash
 # Initialize virtual environment
 virtualenv venv
 venv\Scripts\activate
