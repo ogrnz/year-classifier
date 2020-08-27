@@ -23,6 +23,8 @@ python year_classifier.py "G:/path/to/pictures"
 1505/1505
 Done in 27.016995668411255 s
 ````
+### TODO
+- Add recursivity via `-r` flag
 
 ### Notes
 - It works on unix systems as well as on Windows

@@ -69,4 +69,4 @@ for count, f in enumerate(files, start = 1):
         print(f'{count}/{len(files)}')
 
 elapsed = time.time() - t1        
-print(f'Done in {elapsed} s or {elapsed /60} min')
+print(f'Done in {elapsed} s or {elapsed / 60} min')
