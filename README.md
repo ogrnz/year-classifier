@@ -1,6 +1,6 @@
 # Year classifier script
 
-The script classifies pictures (or any given file actually) in a given yource directory.
+The script classifies pictures (or any given file actually) in a given directory.
 It uses the exif (https://pypi.org/project/exif/) lib to extract metadata. When no metadata is found, 
 the script looks for a simple `20[0-9]{2}` regex pattern (adapt it if you have old pics) in the file name. 
 
