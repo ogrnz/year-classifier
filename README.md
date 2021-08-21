@@ -6,7 +6,7 @@ the script looks for a simple `20[0-9]{2}` regex pattern (adapt it if you have o
 
 ### How to use:
 After downloading the script and setting up the environment, 
-just call the python script with the source directory as the first and only argument : `python year_classifier.py "G:/path/to/pictures"`
+just call the python script with the source directory as the first and only argument : `python year_classifier.py [-r] "C:/path/to/pictures"`
 ```bash
 # Initialize virtual environment
 virtualenv venv
@@ -23,9 +23,7 @@ python year_classifier.py "G:/path/to/pictures"
 1505/1505
 Done in 27.016995668411255 s
 ````
-### TODO
-- Add recursivity via `-r` flag
 
 ### Notes
 - It works on unix systems as well as on Windows
-- It is *not* recursive yet
+- You can now recursively classify files with the ```-r``` flag.
